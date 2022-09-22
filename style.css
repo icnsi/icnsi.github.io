@@ -1,86 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide:wght@400;500;600;700&display=swap');
+<style>
+h1 {
+        color: black;
+        font-size: 40px;
+    }
 
-* {
-  padding = 0;
-  margin = 0;
-  font-family: 'Audiowide', sans-serif;
-}
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid dodgerblue;
+        margin: auto;
+        border-radius: 4px;
+        font-family: Audiowide, sans-serif;
+ 
+        background-color: dodgerblue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+ 
+    #print {
+        font-family: Audiowide, sans-serif;
+ 
+        color: dodgerblue;
+        font-size: 20px;
+    }
+ 
+    #main {
+        text-align: center;
+    }
 
-body {
-  background-color: white;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 15px;
-}
-
-.header h1 {
-  text-allign: center;
-}
-
-.header h3 {
-  text-allign: center;
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 35px;
-}
-
-.row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn {
-  border: 1px solid black;
-  border-radius: 5px;
-  height: 75px;
-  margin: 2px;
-  width: 75px;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 500;
-}
-
-.btn:hover {
-  cursor: pointer;
-  background-color: rgb(220, 220, 220);
-}
-
-.btn:disabled {
-  color: black;
-  cursor: no-drop;
-}
-
-.result {
-  text-align: center;
-}
-
-.reset {
-  text-align:center;
-}
-
-#reset {
-  border: 1px solid black;
-  cursor: pointer;
-  color: black;
-  background-color: white;
-  border-radius: 5px;
-  padding: 5px 20px;
-  margin: 35px;
-  font-size: 17px;
-  transition: all 0.1s ease-in-out;
-}
-
-#reset:hover {
-  color: white;
-  background-color: black;
-}
+    #ins {
+        font-family: Audiowide, sans-serif;
+             
+        color: dodgerblue;
+        font-size: 17px;
+    }
+</style>
