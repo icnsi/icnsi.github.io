@@ -21,7 +21,7 @@ function myfunc() {
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b4 == 'x' ||
 		b4 == 'X') && (b7 == 'x' || b7 == 'X')) {
@@ -34,7 +34,7 @@ function myfunc() {
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
 
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else if ((b7 == 'x' || b7 == 'X') && (b8 == 'x' ||
 		b8 == 'X') && (b9 == 'x' || b9 == 'X')) {
@@ -46,7 +46,7 @@ function myfunc() {
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b6 == 'x' ||
 		b6 == 'X') && (b9 == 'x' || b9 == 'X')) {
@@ -58,7 +58,7 @@ function myfunc() {
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b9 == 'x' || b9 == 'X')) {
@@ -70,7 +70,7 @@ function myfunc() {
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b7 == 'x' || b7 == 'X')) {
@@ -82,7 +82,7 @@ function myfunc() {
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b8 == 'x' || b8 == 'X')) {
@@ -94,7 +94,7 @@ function myfunc() {
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else if ((b4 == 'x' || b4 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b6 == 'x' || b6 == 'X')) {
@@ -106,115 +106,115 @@ function myfunc() {
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain X menang!');
+		window.alert('Pemain X menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
   
-	else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
-		b2 == '0') && (b3 == '0' || b3 == '0')) {
+	else if ((b1 == 'O' || b1 == 'O') && (b2 == 'O' ||
+		b2 == 'O') && (b3 == 'O' || b3 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
-	else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
-		b4 == '0') && (b7 == '0' || b7 == '0')) {
+	else if ((b1 == 'O' || b1 == 'O') && (b4 == 'O' ||
+		b4 == 'O') && (b7 == 'O' || b7 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
-	else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
-		b8 == '0') && (b9 == '0' || b9 == '0')) {
+	else if ((b7 == 'O' || b7 == 'O') && (b8 == 'O' ||
+		b8 == 'O') && (b9 == 'O' || b9 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
-	else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
-		b6 == '0') && (b9 == '0' || b9 == '0')) {
+	else if ((b3 == 'O' || b3 == 'O') && (b6 == 'O' ||
+		b6 == 'O') && (b9 == 'O' || b9 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
-	else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
-		b5 == '0') && (b9 == '0' || b9 == '0')) {
+	else if ((b1 == 'O' || b1 == 'O') && (b5 == 'O' ||
+		b5 == 'O') && (b9 == 'O' || b9 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
-	else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
-		b5 == '0') && (b7 == '0' || b7 == '0')) {
+	else if ((b3 == 'O' || b3 == 'O') && (b5 == 'O' ||
+		b5 == 'O') && (b7 == 'O' || b7 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
-	else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
-		b5 == '0') && (b8 == '0' || b8 == '0')) {
+	else if ((b2 == 'O' || b2 == 'O') && (b5 == 'O' ||
+		b5 == 'O') && (b8 == 'O' || b8 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
-	else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
-		b5 == '0') && (b6 == '0' || b6 == '0')) {
+	else if ((b4 == 'O' || b4 == 'O') && (b5 == 'O' ||
+		b5 == 'O') && (b6 == 'O' || b6 == 'O')) {
 		document.getElementById('print')
-			.innerHTML = "Pemain 0 menang!";
+			.innerHTML = "Pemain O menang!";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Pemain 0 menang!');
+		window.alert('Pemain O menang! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 
-	else if ((b1 == 'X' || b1 == '0') && (b2 == 'X'
-		|| b2 == '0') && (b3 == 'X' || b3 == '0') &&
-		(b4 == 'X' || b4 == '0') && (b5 == 'X' ||
-		b5 == '0') && (b6 == 'X' || b6 == '0') &&
-		(b7 == 'X' || b7 == '0') && (b8 == 'X' ||
-		b8 == '0') && (b9 == 'X' || b9 == '0')) {
+	else if ((b1 == 'X' || b1 == 'O') && (b2 == 'X'
+		|| b2 == 'O') && (b3 == 'X' || b3 == 'O') &&
+		(b4 == 'X' || b4 == 'O') && (b5 == 'X' ||
+		b5 == 'O') && (b6 == 'X' || b6 == 'O') &&
+		(b7 == 'X' || b7 == 'O') && (b8 == 'X' ||
+		b8 == 'O') && (b9 == 'X' || b9 == 'O')) {
 			document.getElementById('print')
-				.innerHTML = "Hasil SERI!";
-			window.alert('Hasil SERI!');
+				.innerHTML = "Hasil Seri!";
+			window.alert('Hasil Seri! Kurang Puas? Silahkan Klik pada tombol "OK" atau "Atur Ulang"');
 	}
 	else {
 
@@ -224,7 +224,7 @@ function myfunc() {
 		}
 		else {
 			document.getElementById('print')
-				.innerHTML = "Giliran Pemain 0";
+				.innerHTML = "Giliran Pemain O";
 		}
 	}
 }
@@ -251,7 +251,7 @@ function myfunc_3() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b1").value = "0";
+		document.getElementById("b1").value = "O";
 		document.getElementById("b1").disabled = true;
 		flag = 1;
 	}
@@ -264,7 +264,7 @@ function myfunc_4() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b2").value = "0";
+		document.getElementById("b2").value = "O";
 		document.getElementById("b2").disabled = true;
 		flag = 1;
 	}
@@ -277,7 +277,7 @@ function myfunc_5() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b3").value = "0";
+		document.getElementById("b3").value = "O";
 		document.getElementById("b3").disabled = true;
 		flag = 1;
 	}
@@ -290,7 +290,7 @@ function myfunc_6() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b4").value = "0";
+		document.getElementById("b4").value = "O";
 		document.getElementById("b4").disabled = true;
 		flag = 1;
 	}
@@ -303,7 +303,7 @@ function myfunc_7() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b5").value = "0";
+		document.getElementById("b5").value = "O";
 		document.getElementById("b5").disabled = true;
 		flag = 1;
 	}
@@ -316,7 +316,7 @@ function myfunc_8() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b6").value = "0";
+		document.getElementById("b6").value = "O";
 		document.getElementById("b6").disabled = true;
 		flag = 1;
 	}
@@ -329,7 +329,7 @@ function myfunc_9() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b7").value = "0";
+		document.getElementById("b7").value = "O";
 		document.getElementById("b7").disabled = true;
 		flag = 1;
 	}
@@ -342,7 +342,7 @@ function myfunc_10() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b8").value = "0";
+		document.getElementById("b8").value = "O";
 		document.getElementById("b8").disabled = true;
 		flag = 1;
 	}
@@ -355,7 +355,7 @@ function myfunc_11() {
 		flag = 0;
 	}
 	else {
-		document.getElementById("b9").value = "0";
+		document.getElementById("b9").value = "O";
 		document.getElementById("b9").disabled = true;
 		flag = 1;
 	}
