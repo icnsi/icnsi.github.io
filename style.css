@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Audiowide:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide:wght@400;500;600;700&display=swap', 'https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500;600;700&display=swap');
 <style>
 h1 {
         color: black;
@@ -18,16 +18,16 @@ h1 {
  
     #but {
         box-sizing: border-box;
-        width: 95px;
-        height: 40px;
+        width: 120px;
+        height: 60px;
         border: 1px solid dodgerblue;
         margin: auto;
         border-radius: 4px;
-        font-family: Audiowide, sans-serif;
+        font-family: Merriweather, serif;
  
         background-color: dodgerblue;
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         cursor: pointer;
     }
  
@@ -43,9 +43,9 @@ h1 {
     }
 
     #ins {
-        font-family: Audiowide, sans-serif;
+        font-family: Merriweather, serif;
              
-        color: dodgerblue;
-        font-size: 17px;
+        color: black;
+        font-size: 16px;
     }
 </style>
