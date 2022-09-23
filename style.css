@@ -11,7 +11,7 @@ h1 {
         width: 64px;
         height: 64px;
         margin: auto;
-        border: 1px solid grey;
+        border: 1px groove grey;
         border-radius: 6px;
         font-size: 36px;
         text-align: center;
@@ -21,7 +21,7 @@ h1 {
         box-sizing: border-box;
         width: 120px;
         height: 60px;
-        border: 1px solid black;
+        border: 1px groove black;
         margin: auto;
         border-radius: 4px;
         font-family: Audiowide, sans-serif;
@@ -49,41 +49,4 @@ h1 {
         color: black;
         font-size: 16px;
     }
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 140px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -75px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
 </style>
