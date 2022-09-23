@@ -4,6 +4,6 @@ function myFunction() {
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copyText.value);
-  alert("Link telah disalin: " + copyText.value);
+  alert("Tautan telah disalin: " + copyText.value);
   
 }
