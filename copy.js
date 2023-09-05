@@ -18,7 +18,7 @@ const buttons = document.querySelectorAll('.copy-button');
     button.disabled = true;
 
     setTimeout(function() {
-      button.innerText = 'Salin Tautan';
+      button.innerText = 'Bagikan link ini kepada teman atau kerabat lain!';
       button.disabled = false;
     }, 2000);
   });
