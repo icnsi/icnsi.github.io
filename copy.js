@@ -18,7 +18,7 @@ const buttons = document.querySelectorAll('.copy-button');
     button.disabled = true;
 
     setTimeout(function() {
-      button.innerText = 'Bagikan link ini kepada teman atau kerabat lain!';
+      button.innerText = 'https://shiroharu.eu.org';
       button.disabled = false;
     }, 2000);
   });
